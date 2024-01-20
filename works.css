@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(pagesbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.container ul{
+    display: flex;
+    
+    
+}
+.container ul li{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
+    text-align: center;
+    transition: all 0.4s;
+    
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px;
+    
+}
+.container ul li:hover{
+    background-color: white;
+    cursor: pointer;
+    
+}
+.container ul li:hover a{
+    color: black;
+}
+.container h2{
+    font-size: 40px;
+    color: yellow;
+    font-family: serif;
+
+    
+}
+.container button{
+    width: 150px;
+    color: rgb(250, 241, 110);
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(250, 241, 110);
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.container button:hover{
+    border: 1px solid rgb(250, 241, 110);
+    background: rgb(250, 241, 110);
+    color: black;
+    cursor: pointer;
+}
+#show{
+    background-color: white;
+    cursor: pointer;
+}
+#show a{
+    color: black;
+}
+#body{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 15%;
+}
+#body h3{
+    font-size: 3em;
+    color: yellow;
+}
+#body h3 span{
+    color: aqua;
+}
+#body p{
+    font-size: 2em;
+}
+#body button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+    background: transparent;
+    border: 1px solid yellow;
+    border-radius: 4px;
+}
+#body button a{
+    text-decoration: none;
+    color: white;
+}
+#body button:hover{
+    background: yellow;
+}
+#body button:hover a{
+    color: black;
+}

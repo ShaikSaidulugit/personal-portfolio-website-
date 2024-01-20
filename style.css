@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.container ul{
+    display: flex;
+    
+    
+}
+.container ul li{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
+    text-align: center;
+    transition: all 0.4s;
+    
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px;
+    
+}
+.container ul li:hover{
+    background-color: white;
+    cursor: pointer;
+    
+}
+ #show{
+    background-color: white;
+    cursor: pointer;
+}
+#show a{
+    color: black;
+}
+.container ul li:hover a{
+    color: black;
+}
+.container h2{
+    font-size: 40px;
+    color: yellow;
+    font-family: serif;
+
+    
+}
+.container button{
+    width: 150px;
+    color: rgb(250, 241, 110);
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(250, 241, 110);
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.container button:hover{
+    border: 1px solid rgb(250, 241, 110);
+    background: rgb(250, 241, 110);
+    color: black;
+    cursor: pointer;
+}
+.main{
+    top: 300px;
+    left: 100px;
+    position: absolute;
+    
+}
+.main h1{
+    font-size: 3em;
+}
+.main h2{
+    margin-top: 10px;
+    font-size: 2em;
+}
+.main button{
+    width: 120px;
+    margin-top: 20px;
+    height: 50px;
+    color: rgb(250, 241, 110);
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(250, 241, 110);
+    border-radius: 4px;
+    transition: all 0.4s;   
+}
+.main button:hover{
+    border: 1px solid rgb(250, 241, 110);
+    background: rgb(250, 241, 110);
+    color: black;
+    cursor: pointer;   
+}
+.main span{
+    color: aqua;
+}
+#dev{
+    color: orange;
+}
